@@ -167,7 +167,7 @@ function models(){
 }
 
 
-//this function help to not go te paddle out of canvas
+//this function help to not go te paddle out of canvas.
 function paddleInCanvas(){
   if(mouseY+paddle1Height > height){
     mouseY=height-paddle1Height;
